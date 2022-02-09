@@ -1,0 +1,283 @@
+﻿a {
+    text-decoration: none;
+    display: block;
+}
+
+    a, a:link, a:visited, a:hover, a:active {
+        text-decoration: none;
+        color: inherit;
+    }
+
+#menu {
+    width:100%;
+    height:80px;
+}
+
+    #menu #menuleft {
+        width:220px;
+        height:60px;
+        margin-top:10px;
+        margin-left:220px;
+        float:left;
+    }
+
+    #menu #menuright {
+        height:60px;
+        margin-top:10px;
+        width:550px;
+        float:left;
+        margin-left:10px;
+    }
+
+        #menu #menuright div {
+            float: left;
+            height: 60px;
+            width: 100px;
+            margin-left: 5px;
+            line-height: 60px;
+            text-align: center;
+            font-size: 14px;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        #menu #menuright div:hover{
+            background-color: coral;
+            color: white;
+        }
+.auto-style1 {
+    height: 81px;
+}
+
+.auto-style5 {
+    height: 73px;
+}
+
+.auto-style6 {
+    height: 3917px;
+    background-color: white;
+}
+
+.auto-style8 {
+    margin-left: 514px;
+}
+
+.auto-style9 {
+    margin-right: 0px;
+}
+
+body {
+    margin: 0 auto;
+    position: relative;
+}
+
+.stock-address delivery-address text-primary {
+    -webkit-text-size-adjust: 100%;
+    font-family: tahoma, arial, "Microsoft YaHei", "Hiragino Sans GB", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 0;
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    color: #ff6a00;
+    float: none;
+    position: relative;
+    display: inline-block;
+    min-width: 164px;
+    height: 24px;
+    margin-right: 16px;
+}
+
+.button {
+    background-color: coral;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+    .button:hover{
+        background-color:orangered;
+        -webkit-border-radius: 200px;
+        -moz-border-radius: 200px;
+        border-radius: 200px;
+        font-size:15px;
+        cursor:pointer;
+    }
+
+/*主体*/
+#bodyself {
+    width:100%;
+    background-color:white;
+}
+
+/*顶部*/
+#top {
+    background-color:aqua;
+    width:100%;
+    height:256px;
+}
+
+/*产品价格及其简单介绍与购买*/
+#productdetail {
+    width: 100%;
+    height: 600px;
+    margin-top:150px;
+}
+
+    /*产品价格及其简单介绍居中框*/
+    #productdetail .detail {
+            height: 600px;
+            width:1200px;
+            margin:0 auto;
+            margin-top:150px;
+        }
+        
+        /*产品图片*/
+        #productdetail .detail #pdpic{
+            width:450px;
+            height:600px;
+            float:left;
+        }
+
+            #productdetail .detail #pdpic #swichpic{
+                width:450px;
+                height:150px;
+            }
+
+                #picdiv{
+                    width: 105px;
+                    height: 105px;
+                    float:left;
+                    margin-left:5px;
+                    margin-top:15px;
+                }
+
+        /*产品购买*/
+        #productdetail .detail #DataList2 #pdpurchase {
+            width:700px;
+            height:600px;
+            margin-left:50px;
+            float:left;
+        }
+            /*产品名称及数量*/
+            #productdetail .detail #DataList2 #pdpurchase #title {
+                width: 700px;
+                height: 100px;
+                float: left;
+                background-color: white;
+            }
+
+                #productdetail .detail #DataList2 #pdpurchase #title p #lblflowername {
+                    font-size: 22px;
+                    font-weight: bolder;
+                }
+
+                #productdetail .detail #DataList2 #pdpurchase #title p #lblfloweramount {
+                    font-size: 16px;
+                    font-family: "Microsoft YaHei"
+                }
+
+
+            #productdetail .detail #pdpurchase #titlebottom {
+                width: 700px;
+                height: 550px;
+                float: left;
+            }
+
+            /*产品价格*/
+            #productdetail .detail #pdpurchase #price {
+                width: 700px;
+            }
+
+            #productdetail .detail #pdpurchase #tbdetail tr .td1 {
+                width: 80px;
+                text-align:center;
+                height:60px;
+                
+            }
+
+            #productdetail .detail #pdpurchase #tbdetail tr .td2 {
+                width: 620px;
+                position:relative;
+            }
+
+                #productdetail .detail #pdpurchase #tbdetail tr .td2 #t{
+                    width: 250px;
+                    height:20px;
+                    border:solid 1px;
+                }
+
+                #productdetail .detail #pdpurchase #tbdetail tr .td2 #d {
+                    width: 250px;
+                    height: 200px;
+                    border: solid 1px;
+                    display:none;
+                    z-index:100;
+                    position:absolute;
+                    top:41px;
+                    background-color:white;
+                }
+/*网页主体部分*/
+#mainbody {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 30px;
+    height: 4000px;
+}
+
+    /*商品推荐*/
+    #mainbody #pdrecommand {
+        float:left;
+        width:200px;
+        height:1550px;
+    }
+        #mainbody #pdrecommand #aside-hd {
+            width: 200px;
+            height: 50px;
+        }
+
+        #mainbody #pdrecommand .recommandpic {
+            width: 160px;
+            margin-left:20px;
+            height: 240px;
+        }
+        
+
+    /*商品介绍，放各种图片的*/
+    #mainbody #pdintroduction{
+            float:left;
+            width:990px;
+            height:4000px;
+            background-color:white;
+        }
+
+        #mainbody #pdintroduction .auto-style5 {
+            background-color:whitesmoke;
+        }
+
+            #mainbody #pdintroduction .auto-style5 div {
+                float: left;
+                width: 247.5px;
+                height: 73px;
+            }
+
+                #mainbody #pdintroduction .auto-style5 div:hover {
+                    cursor:pointer;
+                    font-size:20px;
+                }
+/*底部版权...*/
+#bottom {
+    background-color: black;
+    width: 100%;
+    height: 233px;
+    bottom: 0px;
+    position:absolute;
+    bottom:0px;
+}
+
+

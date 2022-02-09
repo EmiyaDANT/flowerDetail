@@ -1,0 +1,51 @@
+﻿body {
+    margin: 0 auto;
+    width: 100%;
+}
+
+#first {
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    background-color: whitesmoke;
+}
+
+    #first
+
+    #second {
+        height: 100px;
+        width: 100%;
+        background-color: floralwhite;
+    }
+
+#second .label {
+    float: left;
+    height: 72px;
+    width: 15%;
+    margin-left: 8px;
+    margin-top:12px
+}
+
+    #second .label .pdiv {
+        height: 40px;
+        width:40px;
+        margin:0 auto;
+        margin-top:20px;    
+    }
+
+
+    #second .label .l1div {
+        height: 32px;
+        line-height: 32px;
+    }
+
+#third {
+    height: 376px;
+    width: 100%;
+    float:left;
+}
+
+.kk {
+    position:absolute;
+    top:200px;
+}
